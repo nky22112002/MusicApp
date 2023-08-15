@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="395dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="8dp"
+        android:text="DANH MỤC"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/rapCategory"
+        android:layout_width="195dp"
+        android:layout_height="163dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/_1585871501036" />
+
+    <ImageView
+        android:id="@+id/balladCategory"
+        android:layout_width="195dp"
+        android:layout_height="163dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="9dp"
+        app:srcCompat="@drawable/_688021019339_300" />
+
+    <ImageView
+        android:id="@+id/lofiCategory"
+        android:layout_width="195dp"
+        android:layout_height="163dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="270dp"
+        app:srcCompat="@drawable/_683876597831_300" />
+
+    <ImageView
+        android:id="@+id/kpopCategory"
+        android:layout_width="195dp"
+        android:layout_height="163dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="8dp"
+        app:srcCompat="@drawable/_1672806224342" />
+
+    <ImageView
+        android:id="@+id/vpopCategory"
+        android:layout_width="195dp"
+        android:layout_height="163dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="119dp"
+        app:srcCompat="@drawable/_690340573306_300" />
+
+    <ImageView
+        android:id="@+id/usukCategory"
+        android:layout_width="195dp"
+        android:layout_height="163dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="118dp"
+        app:srcCompat="@drawable/_1524122974777" />
+
+
+</RelativeLayout>
